@@ -1,0 +1,55 @@
+body {
+  background-color: antiquewhite;
+  justify-content: center;
+  align-items: center;
+}
+
+.userImg {
+  max-width: 30%;
+  display: flex;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.userImg:hover {
+  max-width: 35%;
+}
+
+.container {
+  display: grid;
+  grid-column: auto;
+  justify-content: center;
+  padding: 10%;
+}
+
+.cardUser {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: clamp(20rem, calc(20rem + 2vw), 22rem);
+  overflow: hidden;
+  box-shadow: 0 .1rem 1rem rgba(0, 0, 0, 0.1);
+  border-radius: 1em;
+  background: #ECE9E6;
+  background: linear-gradient(to right, #FFFFFF, #ECE9E6);
+}
+
+.btn {
+  padding: .25em .75em;
+  border-radius: 1em;
+  font-size: .75rem;
+  background-color: aquamarine;
+}
+
+ul {
+  list-style: none;
+  flex-wrap: nowrap;
+  padding: 30px;
+  text-align: start; 
+}
+
+.listItem {
+  padding-top: 10%;
+  justify-content: space-between;
+}
