@@ -1,13 +1,12 @@
 import './App.css';
 import WeatherCard from './components/Card';
-import Sunny from './components/sunny';
+import Animation from './components/aimations';
 
 
 function App() {
   return (
     <div className="App">
       <WeatherCard />
-      <Sunny/>
     </div>
   );
 }

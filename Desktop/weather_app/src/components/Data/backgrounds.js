@@ -8,7 +8,7 @@ const backgroundColors = {
     foggy: "background-image: linear-gradient(to right top, #d6d66e, #96da89, #4fd7b1, #00ced6, #26c0ec, #41c0f1, #56bff5, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);",
     stormy: "background-image: linear-gradient(to right top, #d6d66e, #96da89, #4fd7b1, #00ced6, #26c0ec, #41c0f1, #56bff5, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);",
     clear: "background-image: linear-gradient(to right top, #ffe900, #d5f75d, #b6ff96, #abffc5, #b8ffe6, #b8ffe7, #b8ffe7, #b8ffe8, #a9ffc9, #b3ff9c, #d3ff62, #fff400);",
-    night: "background-image: linear-gradient(to right top, #051937, #003250, #004a4c, #005e30, #5e6b03);",
+    night: "#121212"
 }
 
 export default backgroundColors;
